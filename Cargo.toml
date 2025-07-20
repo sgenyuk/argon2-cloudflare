@@ -13,10 +13,10 @@ crate-type = ["cdylib"]
 [dependencies]
 argon2 = "0.5.2"
 getrandom = { version = "0.2.11", features = ["js"] }
-rand_core = { version = "0.9.3", features = ["std"] }
-serde = { version = "1.0.219", features = ["derive"] }
-serde_json = "1.0.141"
-worker = "0.6.0"
+rand_core = { version = "0.6.4", features = ["std"] }
+serde = { version = "1.0.192", features = ["derive"] }
+serde_json = "1.0.108"
+worker = "0.0.15"
 
 [profile.release]
 lto = true
